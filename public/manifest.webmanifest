@@ -1,0 +1,23 @@
+{
+  "name": "SITARA — Sistem Tata Kelola Aset Rutan",
+  "short_name": "SITARA",
+  "description": "Peminjaman Barang BMN Rutan Klas I Samarinda. Ringan, responsif, dan siap offline.",
+  "id": "/",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0A1F44",
+  "theme_color": "#0A1F44",
+  "lang": "id",
+  "icons": [
+    { "src": "/icons/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" },
+    { "src": "/icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "/icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "/icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "Katalog Barang", "url": "/#/barang", "description": "Lihat daftar barang BMN" },
+    { "name": "Ajukan Peminjaman", "url": "/#/ajukan", "description": "Ajukan peminjaman barang" }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "sitara",
+  "version": "1.0.0",
+  "description": "SITARA — Sistem Tata Kelola Aset Rutan | Peminjaman Barang BMN Rutan Klas I Samarinda",
+  "type": "module",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "node --watch server/index.js",
+    "gen-icons": "node tools/gen-icons.js",
+    "fetch-fonts": "node tools/fetch-fonts.js"
+  },
+  "engines": {
+    "node": ">=22.5.0"
+  },
+  "dependencies": {},
+  "license": "UNLICENSED",
+  "private": true
+}
